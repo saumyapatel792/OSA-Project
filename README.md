@@ -11,7 +11,7 @@ The system uses a soft-voting ensemble model combining **Random Forest** and **G
 
 ---
 
-## ✨ Features
+##  Features
 
 -  **Clinical Dashboard**: Overview of cohort statistics, model performance metrics (Accuracy, Sensitivity, Specificity, AUC), active clinical alerts, and risk distribution.
 -  **Risk Assessment Tool**: Input patient anthropometrics and vitals (Age, BMI, Neck Circumference, Snoring Intensity, Resting SpO2, and comorbidities) to calculate the probability of OSA with a visual gauge and clinical recommendations based on AASM guidelines.
