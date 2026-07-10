@@ -1,5 +1,5 @@
 # Obstructive Sleep Apnea - Clinical Decision Support System (OSA-CDSS)
-### Alliance University · Department of Data Science & Sleep Medicine
+### Clinical Decision Support System
 
 ---
 
