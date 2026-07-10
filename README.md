@@ -3,7 +3,7 @@
 
 ---
 
-## 📋 Overview
+##  Overview
 
 **OSA-CDSS** is a machine learning-powered Obstructive Sleep Apnea (OSA) Clinical Decision Support System. It enables clinicians to assess patient risk profiles, visualize cohort statistics, manage patient records, and generate clinical PDF reports.
 
@@ -13,15 +13,15 @@ The system uses a soft-voting ensemble model combining **Random Forest** and **G
 
 ## ✨ Features
 
-- 📊 **Clinical Dashboard**: Overview of cohort statistics, model performance metrics (Accuracy, Sensitivity, Specificity, AUC), active clinical alerts, and risk distribution.
-- 🩺 **Risk Assessment Tool**: Input patient anthropometrics and vitals (Age, BMI, Neck Circumference, Snoring Intensity, Resting SpO2, and comorbidities) to calculate the probability of OSA with a visual gauge and clinical recommendations based on AASM guidelines.
-- 📋 **Patient Registry**: Interactive database explorer with sorting, filtering, and a detailed vitals/indicators view for individual cohorts. Includes automated PDF report generation.
-- 🧠 **ML Model Technical View**: Feature importance rankings, confusion matrix, model hyperparameter specifications, and training/validation loss curves.
-- 🗄️ **Data Management**: Full CRUD interface for the underlying SQLite database, along with logs from the data preprocessing pipeline (missing value imputation, IQR outlier removal, z-score normalization).
+-  **Clinical Dashboard**: Overview of cohort statistics, model performance metrics (Accuracy, Sensitivity, Specificity, AUC), active clinical alerts, and risk distribution.
+-  **Risk Assessment Tool**: Input patient anthropometrics and vitals (Age, BMI, Neck Circumference, Snoring Intensity, Resting SpO2, and comorbidities) to calculate the probability of OSA with a visual gauge and clinical recommendations based on AASM guidelines.
+- **Patient Registry**: Interactive database explorer with sorting, filtering, and a detailed vitals/indicators view for individual cohorts. Includes automated PDF report generation.
+- **ML Model Technical View**: Feature importance rankings, confusion matrix, model hyperparameter specifications, and training/validation loss curves.
+- **Data Management**: Full CRUD interface for the underlying SQLite database, along with logs from the data preprocessing pipeline (missing value imputation, IQR outlier removal, z-score normalization).
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: Streamlit
 - **Backend / Database**: SQLite 3 (handled via Python `sqlite3`)
@@ -32,7 +32,7 @@ The system uses a soft-voting ensemble model combining **Random Forest** and **G
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -77,7 +77,7 @@ The application will launch and be available in your browser at `http://localhos
 
 ---
 
-## 📊 Database & Schema
+##  Database & Schema
 
 The application uses an SQLite database named `osa_patients.db` located in the root directory. It contains three main tables:
 1. `patients`: Stores patient demographics, vitals, AHI score, risk category, and ML prediction scores.
@@ -88,7 +88,7 @@ On the first run, the database is automatically created and seeded with baseline
 
 ---
 
-## 🔬 Training with MESA Dataset (Recommended)
+##  Training with MESA Dataset (Recommended)
 
 To transition the system from synthetic training data to real PSG-verified clinical data:
 1. Register and request access at [BioLINCC MESA Sleep Study](https://biolincc.nhlbi.nih.gov/studies/mesa/).
